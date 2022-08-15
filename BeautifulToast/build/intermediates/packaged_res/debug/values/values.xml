@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_background_color">#555555</color>
+    <color name="default_text_color">#ffffff</color>
+    <dimen name="default_corner_radius">30dp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="drawable_padding">8dp</dimen>
+    <dimen name="icon_size">19dp</dimen>
+    <dimen name="toast_horizontal_padding">25dp</dimen>
+    <dimen name="toast_horizontal_padding_empty_side">25dp</dimen>
+    <dimen name="toast_horizontal_padding_icon_side">20dp</dimen>
+    <dimen name="toast_vertical_padding">11.2dp</dimen>
+    <integer name="defaultBackgroundAlpha">230</integer>
+    <integer name="fullBackgroundAlpha">255</integer>
+    <declare-styleable name="BeautifulToast">
+        <attr format="boolean" name="stTextBold"/>
+        <attr format="color" name="stTextColor"/>
+        <attr format="reference" name="stFont"/>
+        <attr format="dimension" name="stTextSize"/>
+        <attr format="color" name="stColorBackground"/>
+        <attr format="boolean" name="stSolidBackground"/>
+        <attr format="dimension" name="stRadius"/>
+        <attr format="dimension" name="stStrokeWidth"/>
+        <attr format="color" name="stStrokeColor"/>
+        <attr format="reference" name="stIconStart"/>
+        <attr format="reference" name="stIconEnd"/>
+        <attr format="integer" name="stLength">
+            <enum name="LONG" value="1"/>
+            <enum name="SHORT" value="0"/>
+        </attr>
+        <attr format="integer" name="stGravity">
+            <enum name="center" value="1"/>
+            <enum name="top" value="2"/>
+        </attr>
+
+    </declare-styleable>
+</resources>

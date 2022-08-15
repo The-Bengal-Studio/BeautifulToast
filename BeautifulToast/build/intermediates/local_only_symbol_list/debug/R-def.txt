@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+attr? stColorBackground
+attr? stFont
+attr? stGravity
+attr? stIconEnd
+attr? stIconStart
+attr? stLength
+attr? stRadius
+attr? stSolidBackground
+attr? stStrokeColor
+attr? stStrokeWidth
+attr? stTextBold
+attr? stTextColor
+attr? stTextSize
+color default_background_color
+color default_text_color
+dimen default_corner_radius
+dimen default_text_size
+dimen drawable_padding
+dimen icon_size
+dimen toast_horizontal_padding
+dimen toast_horizontal_padding_empty_side
+dimen toast_horizontal_padding_icon_side
+dimen toast_vertical_padding
+drawable shape_toast
+id LONG
+id SHORT
+id center
+id textview
+id top
+integer defaultBackgroundAlpha
+integer fullBackgroundAlpha
+layout beautiful_toast_layout
+styleable BeautifulToast stTextBold stTextColor stFont stTextSize stColorBackground stSolidBackground stRadius stStrokeWidth stStrokeColor stIconStart stIconEnd stLength stGravity
